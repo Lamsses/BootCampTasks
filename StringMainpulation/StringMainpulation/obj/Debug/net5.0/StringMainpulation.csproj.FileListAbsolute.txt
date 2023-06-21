@@ -1,0 +1,16 @@
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\bin\Debug\net5.0\StringMainpulation.exe
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\bin\Debug\net5.0\StringMainpulation.deps.json
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\bin\Debug\net5.0\StringMainpulation.runtimeconfig.json
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\bin\Debug\net5.0\StringMainpulation.runtimeconfig.dev.json
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\bin\Debug\net5.0\StringMainpulation.dll
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\bin\Debug\net5.0\ref\StringMainpulation.dll
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\bin\Debug\net5.0\StringMainpulation.pdb
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.csproj.AssemblyReference.cache
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.AssemblyInfoInputs.cache
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.AssemblyInfo.cs
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.csproj.CoreCompileInputs.cache
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.dll
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\ref\StringMainpulation.dll
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.pdb
+C:\Users\msi\source\repos\StringMainpulation\StringMainpulation\obj\Debug\net5.0\StringMainpulation.genruntimeconfig.cache
