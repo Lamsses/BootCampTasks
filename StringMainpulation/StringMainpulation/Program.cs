@@ -61,11 +61,155 @@ namespace StringMainpulation
 
         }
 
+    
+    //Q6
+    public static void ComparString()
+    {
+        string str1 = "JAVA";
+        string str2 = "python";
+        int result = string.CompareOrdinal(str1, str2);
+        if (result < 0)
+        {
+            Console.WriteLine("String '{0}' is less than String '{1}'.", str1, str2);
+        }
+        else if (result > 0)
+        {
+            Console.WriteLine("String '{0}' is greater than String '{1}'.", str1, str2);
+        }
+        else
+        {
+            Console.WriteLine("Both strings are equal.");
+        }
+    }
+    //Q7
+    public static void ComparStringsobject()
+    {
+        List<object> strings = new List<object> { "TestClass", 123, "some text", "Some Text" };
+        string input = "some text";
+        foreach (object obj in strings)
+        {
+            string arguments = obj.GetType().Name;
+            Console.WriteLine($"Bad argument: {obj} (type {arguments})");
+            if (obj.GetType() == typeof(string))
+            {
+                string str = (string)obj;
+                int result = string.Compare(input, str);
+                Console.WriteLine("Comparing '{0}' with '{1}': {2}", input, str, result);
+            }
+        }
+    }
+    //Q8
+    static void CompareArrays(string wizard1, string wizard2)
+    {
+        int result = string.Compare(wizard1, wizard2);
+        Console.WriteLine($"Comparing {wizard1} with {wizard2} -> ");
+
+        if (result == 0)
+        {
+            Console.WriteLine($"The strings occur in the same position in the sort order.");
+        }
+        else if (result < 0)
+        {
+            Console.WriteLine("The first string precedes the second in the sort order.");
+        }
+        else
+        {
+            Console.WriteLine("The first string follows the second in the sort order.");
+        }
+    }
+    //9
+    public static void Culture()
+    {
+        string[] strings = { "Å", "abcЙࠉ" };
+        TextInfo gb = new CultureInfo("en-GB", false).TextInfo;
+        bool endsWithTargetString = strings[1].EndsWith(strings[0]);
+        bool containsTargetString = strings[1].Contains(strings[0]);
+        if (containsTargetString)
+        {
+            Console.WriteLine($"The target string \"{strings[0]}\" was found in the string \"{strings[1]}\".");
+        }
+        else
+        {
+            Console.WriteLine($"The target string \"{strings[0]}\" was not found in the string \"{strings[1]}\".");
+        }
+        Console.WriteLine($"Using The English (United Kingdom) - \"{gb}\" culture\nCase sensitive: \n");
+        Console.WriteLine($"The string to search ends with the target string: {endsWithTargetString}");
+    }
+    //Q10
+    static void ConcatenateStrings()
+    {
+        string[] output = { "abcd", "efgh", "ijkl", "mnop" };
+        Random random = new Random();
+        for (int i = output.Length - 1; i > 0; i--)
+        {
+            int j = random.Next(i + 1);
+            string temp = output[i];
+            output[i] = output[j];
+            output[j] = temp;
+        }
+        foreach (string word in output)
+        {
+            Console.WriteLine(word);
+        }
+    }
+    //Q11
+    static void threeStrings()
+    {
+        string str1 = "Don't count your chickens, ";
+        string str2 = "before the eggs, ";
+        string str3 = "have hatched.";
+        string result = str1 + str2 + str3;
+        Console.WriteLine(result);
+    }
+    //Q12
+    public static void concatenate()
+    {
+        string[] words = { "hello", "welcome", "to", "C#", "Sharp", "create", "Windows", "client", "applications" };
+        string concatenatedString = string.Join(" ", words);
+        Console.WriteLine(concatenatedString);
+        words[words.Length - 1] = "Windows";
+        words[words.Length - 2] = "welcome";
+        words[words.Length - 3] = "to";
+        words[words.Length - 4] = "create";
+        words[words.Length - 5] = "client";
+        words[words.Length - 6] = "Sharp";
+        words[words.Length - 7] = "C#";
+        words[words.Length - 8] = "applications";
+        string newConcatenatedString = string.Join(" ", words);
+        Console.WriteLine(newConcatenatedString);
+    }
+    //Q13
+    public static void familiarString()
+    {
+        string familiarString = "Kill two birds with one stone";
+        string substring = "birds";
+        bool isSubstring = familiarString.Contains(substring);
+        Console.WriteLine($"'{substring}' is in the string '{familiarString}': {isSubstring}");
+        if (isSubstring)
+        {
+            int startIndex = familiarString.IndexOf(substring);
+            Console.WriteLine($"'{substring}' begins at character position {startIndex}");
+        }
+    }
+    //Q14
+    public static void copy()
+    {
+        string s1 = "JAVA";
+        string s2 = "Python";
+        Console.WriteLine("Before assignment:");
+        Console.WriteLine("s1 = " + s1);
+        Console.WriteLine("s2 = " + s2);
+        s2 = s1;
+        Console.WriteLine("\nAfter assignment using the assignment operator:");
+        Console.WriteLine("s1 = " + s1);
+        Console.WriteLine("s2 = " + s2);
+    }
 
 
 
-        //Q15
-        static bool IsEndDot(string input)
+
+    //Q15
+    static bool IsEndDot(string input)
         {
             return input.EndsWith(".");
         }

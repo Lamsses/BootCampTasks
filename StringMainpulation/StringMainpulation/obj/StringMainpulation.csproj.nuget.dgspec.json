@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GLOBALIRAQ.NET\\Downloads\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj": {}
+    "C:\\Users\\GLOBALIRAQ.NET\\Source\\Repos\\BootCampTasks\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GLOBALIRAQ.NET\\Downloads\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj": {
+    "C:\\Users\\GLOBALIRAQ.NET\\Source\\Repos\\BootCampTasks\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GLOBALIRAQ.NET\\Downloads\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj",
+        "projectUniqueName": "C:\\Users\\GLOBALIRAQ.NET\\Source\\Repos\\BootCampTasks\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj",
         "projectName": "StringMainpulation",
-        "projectPath": "C:\\Users\\GLOBALIRAQ.NET\\Downloads\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj",
+        "projectPath": "C:\\Users\\GLOBALIRAQ.NET\\Source\\Repos\\BootCampTasks\\StringMainpulation\\StringMainpulation\\StringMainpulation.csproj",
         "packagesPath": "C:\\Users\\GLOBALIRAQ.NET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GLOBALIRAQ.NET\\Downloads\\StringMainpulation\\StringMainpulation\\obj\\",
+        "outputPath": "C:\\Users\\GLOBALIRAQ.NET\\Source\\Repos\\BootCampTasks\\StringMainpulation\\StringMainpulation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual Studio\\Vb Sdk\\NuGetPackages"
